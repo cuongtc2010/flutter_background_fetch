@@ -13,11 +13,11 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        google()
-        mavenCentral()
         maven {
             url './libs'
         }
+        google()
+        mavenCentral()
     }
 }
 
